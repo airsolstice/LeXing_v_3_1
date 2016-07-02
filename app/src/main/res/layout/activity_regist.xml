@@ -4,7 +4,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#bdbdbd"
-                tools:context="com.hs.lxv3_1.rigist.RigistActivity">
+                tools:context="com.hs.lxv3_1.regist.RegistActivity">
 
 
     <TextView

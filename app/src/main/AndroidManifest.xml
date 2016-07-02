@@ -97,7 +97,7 @@
             android:label="@string/title_activity_login" >
         </activity>
         <activity
-            android:name=".rigist.RigistActivity"
+            android:name=".regist.RegistActivity"
             android:label="@string/title_activity_rigist" >
         </activity>
         <activity
