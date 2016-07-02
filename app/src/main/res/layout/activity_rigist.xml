@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#bdbdbd"
+                tools:context="com.hs.lxv3_1.rigist.RigistActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="LEXING RIGIST"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayray"
+        android:layout_width="250dp"
+        android:layout_height="280dp"
+        android:background="@android:color/darker_gray"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <com.hs.lxv3_1.views.TextImageView
+            android:layout_width="@dimen/defWidth"
+            android:layout_height="@dimen/defHeight"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="30dp"
+            app:Content="Count"
+            app:Oriental="Horizontal"
+            app:Src="@drawable/account"
+            app:Text="123456789@qq.com"
+            app:TextColor="@android:color/white"
+            app:TextSize="@dimen/text_size" >
+        </com.hs.lxv3_1.views.TextImageView>
+
+
+
+        <com.hs.lxv3_1.views.TextImageView
+            android:layout_width="@dimen/defWidth"
+            android:layout_height="@dimen/defHeight"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="90dp"
+            app:Content="Count"
+            app:Oriental="Horizontal"
+            app:Src="@drawable/account"
+            app:Text="123456789@qq.com"
+            app:TextColor="@android:color/white"
+            app:TextSize="@dimen/text_size" >
+        </com.hs.lxv3_1.views.TextImageView>
+
+
+
+        <com.hs.lxv3_1.views.TextImageView
+            android:layout_width="@dimen/defWidth"
+            android:layout_height="@dimen/defHeight"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="150dp"
+            app:Content="Count"
+            app:Oriental="Horizontal"
+            app:Src="@drawable/account"
+            app:Text="123456789@qq.com"
+            app:TextColor="@android:color/white"
+            app:TextSize="@dimen/text_size" >
+        </com.hs.lxv3_1.views.TextImageView>
+
+
+
+
+        <Button
+            android:background="#e65100"
+            android:text="RIGIST NOW"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="220dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"/>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我已同意乐行用户协议"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

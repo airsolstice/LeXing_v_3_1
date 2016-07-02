@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ci="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7b000000"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_wbg_shadow_all_direction"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <com.hs.lxv3_1.views.CircleImageView
+                android:id="@+id/pop_ring_head"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/map_icon"
+                ci:border_width="2dp"/>
+
+            <TextView
+                android:id="@+id/pop_personal_center"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/arrow_right"
+                android:gravity="center_vertical"
+                android:text="个人中心"
+                android:textColor="#272636"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#bdbdbd"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7fffffff"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:id="@+id/pop_navigate"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/opt_navi"
+                android:gravity="center"
+                android:padding="10dp"
+                android:paddingBottom="100dp"
+                android:paddingTop="100dp"
+                android:text="导航"
+                android:textColor="#272636"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/community"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/community"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="社区"
+                android:textColor="#272636"
+                android:textSize="12dp"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#bdbdbd"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <TextView
+                android:id="@+id/pop_footp"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/rect_wbg_btn"
+                android:gravity="center"
+                android:paddingBottom="@dimen/lx_btn_padding_bottom"
+                android:paddingTop="@dimen/lx_btn_padding_top"
+                android:text="足迹"
+                android:textColor="#272636"
+                android:textSize="9dp"/>
+
+
+            <TextView
+                android:id="@+id/pop_book"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/rect_wbg_btn"
+                android:gravity="center"
+                android:paddingBottom="@dimen/lx_btn_padding_bottom"
+                android:paddingTop="@dimen/lx_btn_padding_top"
+                android:text="定制"
+                android:textColor="#272636"
+                android:textSize="9dp"/>
+
+
+            <TextView
+                android:id="@+id/pop_surr"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/rect_wbg_btn"
+                android:gravity="center"
+                android:paddingBottom="@dimen/lx_btn_padding_bottom"
+                android:paddingTop="@dimen/lx_btn_padding_top"
+                android:text="周边"
+                android:textColor="#272636"
+                android:textSize="9dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:weightSum="3"
+            >
+
+
+            <TextView
+                android:id="@+id/pop_account"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/rect_wbg_btn"
+                android:gravity="center"
+                android:paddingBottom="@dimen/lx_btn_padding_bottom"
+                android:paddingTop="@dimen/lx_btn_padding_top"
+                android:text="记账"
+                android:textColor="#272636"
+                android:textSize="9dp"/>
+
+
+            <TextView
+                android:id="@+id/pop_meet"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/rect_wbg_btn"
+                android:gravity="center"
+                android:paddingBottom="@dimen/lx_btn_padding_bottom"
+                android:paddingTop="@dimen/lx_btn_padding_top"
+                android:text="偶遇"
+                android:textColor="#272636"
+                android:textSize="9dp"/>
+
+            <TextView
+                android:id="@+id/pop_group"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/rect_wbg_btn"
+                android:gravity="center"
+                android:paddingBottom="@dimen/lx_btn_padding_bottom"
+                android:paddingTop="@dimen/lx_btn_padding_top"
+                android:text="群组"
+                android:textColor="#272636"
+                android:textSize="9dp"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#bdbdbd"
+            />
+
+
+        <TextView
+            android:id="@+id/pop_settings"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="#7fffffff"
+            android:drawableRight="@drawable/arrow_right"
+            android:gravity="center_vertical"
+            android:text="设置"
+            android:textColor="#272636"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/pop_about"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="#7fffffff"
+            android:drawableRight="@drawable/arrow_right"
+            android:gravity="center_vertical"
+            android:text="关于"
+            android:textColor="#272636"
+            android:textSize="15dp"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

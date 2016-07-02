@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="alertdialg">60dp</dimen>
+
+    <!-- Default TextImageView -->
+    <dimen name="defWidth">200dp</dimen>
+    <dimen name="defHeight">40dp</dimen>
+    <dimen name="text_size">13sp</dimen>
+    <dimen name="head_width">60dp</dimen>
+    <dimen name="head_height">60dp</dimen>
+    <dimen name="defCircleWidth">40dp</dimen>
+    <dimen name="defCircleHeight">40dp</dimen>
+    <dimen name="defCircleTextSize">35dp</dimen>
+    <dimen name="defCircleStrokeWidth">5dp</dimen>
+
+
+    <dimen name="fuct_left">0dp</dimen>
+    <dimen name="fuct_top">0dp</dimen>
+    <dimen name="fuct_right">25dp</dimen>
+    <dimen name="fuct_bottom">22dp</dimen>
+
+    <dimen name="search_left">0dp</dimen>
+    <dimen name="search_top">0dp</dimen>
+    <dimen name="search_right">25dp</dimen>
+    <dimen name="search_bottom">25dp</dimen>
+
+
+    <dimen name="menu_left">0dp</dimen>
+    <dimen name="menu_top">0dp</dimen>
+    <dimen name="menu_right">30dp</dimen>
+    <dimen name="menu_bottom">30dp</dimen>
+
+    <dimen name="navi_communicate_left">0dp</dimen>
+    <dimen name="navi_communicate_top">0dp</dimen>
+    <dimen name="navi_communicate_right">45dp</dimen>
+    <dimen name="navi_communicate_bottom">45dp</dimen>
+
+    <dimen name="lx_btn_padding_top">7dp</dimen>
+    <dimen name="lx_btn_padding_bottom">7dp</dimen>
+
+
+    <dimen name="settings_left">0dp</dimen>
+    <dimen name="settings_top">0dp</dimen>
+    <dimen name="settings_right">15dp</dimen>
+    <dimen name="settings_bottom">15dp</dimen>
+
+
+</resources>

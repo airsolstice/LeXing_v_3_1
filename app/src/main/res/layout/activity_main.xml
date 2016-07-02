@@ -1,0 +1,72 @@
+<RelativeLayout
+    android:id="@+id/window_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hs.lxv3.main.MainActivity">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/main_baidu_map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"/>
+
+
+    <ViewStub
+        android:id="@+id/stub"
+        android:layout="@layout/main_search_bar_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/search_bar"
+        layout="@layout/main_search_bar"/>
+
+    <Button
+        android:id="@+id/switch_btn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/search_bar"
+        android:layout_alignStart="@+id/search_bar"
+        android:layout_below="@+id/search_bar"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rect_bg_shadow_switch"
+        android:padding="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/loc_myself_btn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/search_bar"
+        android:layout_alignStart="@+id/search_bar"
+        android:layout_below="@+id/switch_btn"
+        android:background="@drawable/rect_bbg_shadow_loc"
+        android:padding="10dp"/>
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/follow_navi_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:src="@drawable/follow_navi"
+            app:backgroundTint="#212121"
+            app:borderWidth="0dp"
+            app:elevation="5dip"
+            app:fabSize="normal"
+            app:pressedTranslationZ="5sp"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

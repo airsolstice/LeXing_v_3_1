@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:background="@drawable/rect_wbg_shadow_all_direction"
+              android:weightSum="5"
+              android:id="@+id/navi_linear"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="25dp"
+              android:visibility="gone"
+              android:layout_marginBottom="30dp"
+              android:layout_height="wrap_content">
+
+
+
+    <EditText
+        android:id="@+id/navi_input"
+        android:layout_width="1dp"
+        android:layout_weight="4"
+        android:layout_height="37dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:textColor="#272636"
+        android:visibility="visible"
+        android:background="@null"
+        android:paddingLeft="20dp"
+        android:hint="请输入"
+        />
+
+
+    <TextView
+        android:id="@+id/navi_search"
+        android:layout_weight="1"
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="#e65100"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="搜索"
+        />
+
+</LinearLayout>

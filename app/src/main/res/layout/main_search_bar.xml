@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rect_wbg_shadow_all_direction"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/lx_search_bar_voice"
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/search_voice_bg"/>
+
+
+    <ImageView
+        android:id="@+id/lx_search_bar_opt"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/search_menu_bg"
+        />
+
+    <View
+        android:layout_width="2.2dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/lx_search_bar_opt"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/lx_search_bar_opt"
+        android:background="#272636"
+        />
+
+    <EditText
+        android:id="@+id/lx_search_bar_input"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_toLeftOf="@+id/lx_search_bar_voice"
+        android:layout_toRightOf="@+id/lx_search_bar_opt"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:hint="请输入目的地"
+        android:singleLine="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="#272636"
+        />
+
+</RelativeLayout>
+
+
